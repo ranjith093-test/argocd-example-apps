@@ -9,7 +9,7 @@ spec:
   backoffLimit: 2
   template:
     spec:
-      restartPolicy: never
+      restartPolicy: Never
       containers:
         - name: migration
           image: busybox
